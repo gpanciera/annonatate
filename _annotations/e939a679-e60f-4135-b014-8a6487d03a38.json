@@ -1,0 +1,38 @@
+---
+canvas: "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Identified as Tejaprabha on the basis of the sun-chariot wheel he holds in his left hand.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "gpanciera",
+                "name": "Greg Panciera"
+            },
+            "created": "2026-08-24T18:05:27.420Z",
+            "modified": "2026-08-24T18:05:32.112Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://caeacollections.lib.uchicago.edu/iiif/collection/object/14559",
+                "type": "Manifest"
+            },
+            "id": "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1039.9517822265625,874.5548706054688,232.7271728515625,508.18182373046875"
+        }
+    },
+    "id": "e939a679-e60f-4135-b014-8a6487d03a38.json",
+    "motivation": "commenting"
+}
