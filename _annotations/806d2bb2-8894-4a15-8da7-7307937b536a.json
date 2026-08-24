@@ -4,21 +4,27 @@ order: 5
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Mars? Carrying a sword?",
-            "purpose": "commenting",
+            "created": "2026-08-24T18:14:52.944Z",
             "creator": {
                 "id": "gpanciera",
                 "name": "Greg Panciera"
             },
-            "created": "2026-08-24T18:14:52.944Z",
-            "modified": "2026-08-24T18:14:57.860Z"
+            "modified": "2026-08-24T18:24:11.791Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Saturn, carrying a book?"
         }
     ],
+    "id": "806d2bb2-8894-4a15-8da7-7307937b536a.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=144.32676696777344,1144.3311767578125,145.62498474121094,200.2734375"
+        },
         "source": {
             "partOf": {
                 "id": "https://caeacollections.lib.uchicago.edu/iiif/collection/object/14559",
@@ -26,13 +32,7 @@ order: 5
             },
             "id": "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=144.32676696777344,1144.3311767578125,145.62498474121094,200.2734375"
         }
     },
-    "id": "806d2bb2-8894-4a15-8da7-7307937b536a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
