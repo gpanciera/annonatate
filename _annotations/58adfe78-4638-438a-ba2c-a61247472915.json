@@ -1,0 +1,37 @@
+---
+canvas: "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1"
+order: 12
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Attendant bodhisattva",
+            "purpose": "commenting",
+            "creator": {
+                "id": "gpanciera",
+                "name": "Greg Panciera"
+            },
+            "created": "2026-08-24T18:26:20.432Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://caeacollections.lib.uchicago.edu/iiif/collection/object/14559",
+                "type": "Manifest"
+            },
+            "id": "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2269.863037109375,1388.0953369140625,221.2001953125,427.428955078125"
+        }
+    },
+    "id": "58adfe78-4638-438a-ba2c-a61247472915.json",
+    "motivation": "commenting"
+}
