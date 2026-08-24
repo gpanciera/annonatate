@@ -20,11 +20,6 @@ order: 3
     "id": "e939a679-e60f-4135-b014-8a6487d03a38.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1039.9517822265625,874.5548706054688,232.7271728515625,508.18182373046875"
-        },
         "source": {
             "partOf": {
                 "id": "https://caeacollections.lib.uchicago.edu/iiif/collection/object/14559",
@@ -32,6 +27,11 @@ order: 3
             },
             "id": "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1039.9517822265625,807.7828369140625,213.3238525390625,574.953857421875"
         }
     },
     "type": "Annotation"
