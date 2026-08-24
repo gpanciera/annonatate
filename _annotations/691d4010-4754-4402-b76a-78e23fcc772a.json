@@ -1,0 +1,38 @@
+---
+canvas: "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Jupiter, carrying a tray of four peaches",
+            "purpose": "commenting",
+            "creator": {
+                "id": "gpanciera",
+                "name": "Greg Panciera"
+            },
+            "created": "2026-08-24T18:03:43.735Z",
+            "modified": "2026-08-24T18:03:49.025Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://caeacollections.lib.uchicago.edu/iiif/collection/object/14559",
+                "type": "Manifest"
+            },
+            "id": "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=469.57177734375,968.216064453125,154.90057373046875,343.103759765625"
+        }
+    },
+    "id": "691d4010-4754-4402-b76a-78e23fcc772a.json",
+    "motivation": "commenting"
+}
