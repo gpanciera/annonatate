@@ -1,0 +1,38 @@
+---
+canvas: "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1"
+order: 15
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Moon representative",
+            "purpose": "commenting",
+            "creator": {
+                "id": "gpanciera",
+                "name": "Greg Panciera"
+            },
+            "created": "2026-08-24T18:31:13.677Z",
+            "modified": "2026-08-24T18:31:17.386Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://caeacollections.lib.uchicago.edu/iiif/collection/object/14559",
+                "type": "Manifest"
+            },
+            "id": "https://caeacollections.lib.uchicago.edu/iiif/14559/canvas/p1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=388.33599853515625,1415.573974609375,268.76422119140625,666.867919921875"
+        }
+    },
+    "id": "5300f3c2-1895-4c27-bbcb-00dc2f93c807.json",
+    "motivation": "commenting"
+}
